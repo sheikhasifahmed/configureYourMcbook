@@ -79,5 +79,5 @@ btnPromo.addEventListener("click", function () {
     const final = parseFloat(totalPrice.innerText) * 0.8;
     finalTotal.innerText = final.toFixed(2);
   }
-  promoInput.value == "";
+  promoInput.value = "";
 });
